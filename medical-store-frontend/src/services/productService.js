@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Base URL for the API
-const API_URI = "http://localhost:5000/api/products"; // Ensure this matches the backend route
+const API_URI = "https://medical-store-backend-q0dx.onrender.com"; // Ensure this matches the backend route
 
 // Get all products
 export const getProducts = async () => {
